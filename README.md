@@ -1,4 +1,4 @@
-   In this repository you gonna find the backend complement for the balance-app repo. I decide to advance with node.js 
+   In this repository you gonna find the backend complement for the balance-app repo.
    
     cors -> to avoid cors issues
     dotenv -> work with envoirenment variables to keep sensitive data
