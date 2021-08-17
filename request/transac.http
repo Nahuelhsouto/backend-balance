@@ -1,0 +1,37 @@
+@api = http://localhost:3000/transac
+
+
+GET  {{api}}
+//
+
+
+
+####
+GET {{api}}/3
+
+
+#####
+GET  {{api}}/count
+
+
+####
+POST {{api}}
+Content-Type: application/json
+
+{
+    "title":"Teclado",
+    "valor":450,
+    "fecha":"2021-8-12"
+}
+
+###
+DELETE {{api}}/5
+
+###
+PUT {{api}}/3
+Content-Type: application/json
+
+{
+    "valor": 1150
+
+}
